@@ -20,7 +20,7 @@ namespace GradeBook.GradeBooks
         {
             Name = name;
             Students = new List<Student>();
-            bool IsWeighted = isWeighted;
+            IsWeighted = isWeighted;
         }
 
         public void AddStudent(Student student)
